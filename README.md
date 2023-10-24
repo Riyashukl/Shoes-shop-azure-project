@@ -7,6 +7,10 @@ Youtube Video Link:
 
 https://youtu.be/5ZYcGSnf_5E?si=DssRQ3yNLvCxb8bn
 
+Shoes-shop website link:
+
+http://shoes.riyashukla.online/index.html
+
 ------------------------------------------------------------------------
 Traffic Manager: 
 To enhance the availability and performance of our website, we implemented Azure Traffic Manager. This service efficiently distributed incoming web traffic between the two virtual machines in Subnet 1, ensuring a seamless experience for our visitors.
