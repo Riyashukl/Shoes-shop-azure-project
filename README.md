@@ -7,7 +7,7 @@ Traffic Manager:
 To enhance the availability and performance of our website, we implemented Azure Traffic Manager. This service efficiently distributed incoming web traffic between the two virtual machines in Subnet 1, ensuring a seamless experience for our visitors.
 
 DNS Zone: 
-We created a DNS Zone to manage the domain name of our shoe shop website. This allowed us to map our user-friendly domain (e.g., www.shoeshop.com) to the IP address of our Traffic Manager. So, when visitors access our site, they are seamlessly routed to the appropriate VM.
+We created a DNS Zone to manage the domain name of our shoe shop website. This allowed us to map our user-friendly domain (shoes.riyashukla.online ) to the IP address of our Traffic Manager. So, when visitors access our site, they are seamlessly routed to the appropriate VM.
 
 Monitoring and Alerts: 
 To ensure the optimal functioning of our website, we implemented monitoring and alerting systems. These tools provided insights into the performance, health, and potential issues of our website, enabling us to take timely actions and maintain a high-quality user experience.
