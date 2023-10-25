@@ -13,22 +13,30 @@ http://shoes.riyashukla.online/index.html
 
 ------------------------------------------------------------------------
 -------------------------------------------------------------------------
+INTRODUCTION
+ 
+Creating and deploying a static e-commerce shoe shop website on the Azure cloud platform is an excellent way to establish an online presence for your shoe business. Azure offers a robust and scalable infrastructure that can provide the reliability and security needed to run your e-commerce site effectively. In this guide, we'll take you through the process of setting up your website on Azure. In today's digital age, establishing an online e-commerce presence is crucial for the success of any retail business. Whether you're a small shoe boutique or a large footwear retailer, creating a website that allows customers to browse and purchase your products can significantly expand your customer base and boost sales. Azure, Microsoft's cloud computing platform, provides a reliable and scalable environment to host your e-commerce site. Our Azure-powered website ensures lightning-fast performance, secure transactions, and an impeccable user experience. Azure's robust infrastructure guarantees 24/7 availability, assuring you can shop for your favorite shoes at any time, from anywhere in the world. Explore our extensive collection of sneakers, heels, boots, and more, and enjoy a user-friendly interface that makes browsing and shopping a breeze. With Azure's cloud resources, we can effortlessly scale to meet peak demand during sales and promotions, ensuring you never miss out on the latest trends.
+
+
+
 BACKGROUND
 
- In the early 2000s, the e-commerce landscape witnessed the emergence of online shoe shops, marking a significant shift in the way people shopped for footwear. These websites aimed to provide customers with a convenient and extensive platform for browsing, selecting, and purchasing shoes from the comfort of their homes. The background of these e-commerce shoe shops is rooted in the digital revolution and the growing consumer preference for online shopping. With the advent of secure online payment methods and advancements in web technology, it became feasible to create user-friendly, visually appealing platforms for showcasing a wide range of shoe brands and styles. These websites offered various advantages, such as a vast product catalog, detailed product descriptions, high-quality images, and customer reviews, empowering shoppers to make informed choices. Additionally, e-commerce platforms streamlined the purchasing process, offering features like wish lists, cart management, and easy returns. These websites offered various advantages, such as a vast product catalog, detailed product descriptions, high-quality images, and customer reviews, empowering shoppers to make informed choices. Additionally, e-commerce platforms streamlined the purchasing process, offering features like wish lists, cart management, and easy returns.
+ In the early 2000s, the e-commerce landscape witnessed the emergence of online shoe shops, marking a significant shift in the way people shopped for footwear. These websites aimed to provide customers with a convenient and extensive platform for browsing, selecting, and purchasing shoes from the comfort of their homes. The background of these e-commerce shoe shops is rooted in the digital revolution and the growing consumer preference for online shopping. With the advent of secure online payment methods and advancements in web technology, it became feasible to create user-friendly, visually appealing platforms for showcasing a wide range of shoe brands and styles. These websites offered various advantages, such as a vast product catalog, detailed product descriptions, high-quality images, and customer reviews, empowering shoppers to make informed choices. Additionally, e-commerce platforms streamlined the purchasing process, offering features like wish lists, cart management, and easy returns. These websites offered various advantages, such as a vast product catalog, detailed product descriptions, high-quality images, and customer reviews, empowering shoppers to make informed choices. Additionally, e-commerce platforms streamlined the purchasing process, offering features like wish lists, cart management, and easy return.
+ 
+Resource group: 
 
-Resource group: Resources group is a collection or group in azure cloud,it making easier to manage , monitor or organize them
-------------------------------------------------------------------------
+Resources group is a collection or group in azure cloud,it making easier to manage , monitor or organize them
+
 Traffic Manager: To enhance the availability and performance of our website, we implemented Azure Traffic Manager. This service efficiently distributed incoming web traffic between the two virtual machines in Subnet 1, ensuring a seamless experience for our visitors.
--------------------------------------------------------------------------
+
 Virtual Network : In Azure to isolate your resources and enhance security. Mention that it's like your private network in the cloud. Within the Virtual Network, you divided it into two subnets. Subnet 1 is for the frontend of your website, and Subnet 2 is for the database. Explain that this segregation helps manage and secure traffic. In Subnet 1, you have two Virtual Machines. One is for deploying your website, and the other is for redundancy or scaling. The VM in Subnet 2 is for hosting the database.VMs are like virtual computers running in the cloud.
----------------------------------------------------------------------------
+
 DNS Zone: 1.We created a DNS Zone to manage the domain name of our shoe shop website. This allowed us to map our user-friendly domain (shoes.riyashukla.online ) to the IP address of our Traffic Manager. So, when visitors access our site, they are seamlessly routed to the appropriate VM. 2.In your case, you created a DNS Zone to host your website's domain name. This means that when someone types in your website's address in a web browser, the DNS Zone directs them to the correct destination. In this setup, it's linked to the Traffic Manager. 3.So, when a user accesses your website, the DNS Zone plays a crucial role. It translates your user-friendly domain name (e.g., www.yourwebsite.com) into the IP address of your Traffic Manager. The Traffic Manager then takes care of distributing the user's request to the appropriate Virtual Machine within your Subnet 1. This ensures that your website loads efficiently and reliably for your visitors.
----------------------------------------------------------------------------
+
 Monitoring and Alerts: To ensure the optimal functioning of our website, we implemented monitoring and alerting systems. These tools provided insights into the performance, health, and potential issues of our website, enabling us to take timely actions and maintain a high-quality user experience.
----------------------------------------------------------------------------
+
 Azure CDN: To further enhance the website's performance, we integrated Azure Content Delivery Network (CDN). This technology cached and delivered website content from locations closer to the end-users, resulting in faster load times and a smoother browsing experience.
------------------------------------------------------------------------------
+
 Architecture:
 
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/593411ba-a39f-4c1e-a1a2-f29747baf59d)
