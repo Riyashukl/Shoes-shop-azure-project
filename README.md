@@ -15,6 +15,9 @@ http://shoes.riyashukla.online/index.html
 
 ![Architecture](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/593411ba-a39f-4c1e-a1a2-f29747baf59d)
 
+Create Virtual Network:
+
+
 ![Create virtual Network](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/345b823e-dece-46b5-a78c-509070630bb9)
 
 ![steps1](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/a36b3ff9-6c98-458e-ba56-8335d527a20a)
