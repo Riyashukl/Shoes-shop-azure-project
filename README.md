@@ -1,5 +1,5 @@
 # Shoes-shop-azure-project:
-Create and Deploy Static e-commerce shoes Shop website on cloud Using Azure cloud provider
+**Create and Deploy Static e-commerce shoes Shop website on cloud Using Azure cloud provider**
 Virtual Network and Subnets:
 We started by setting up a Virtual Network in Azure to create a secure and isolated environment for our resources. Within this network, we divided it into two subnets. Subnet 1 was designated for our frontend, where we hosted two virtual machines for deploying our website. Subnet 2 was dedicated to the database, which was hosted on another virtual machine.
 ------------------------------------------------------------------------
