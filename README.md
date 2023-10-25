@@ -12,14 +12,12 @@ Shoes-shop website link:
 http://shoes.riyashukla.online/index.html
 
 ------------------------------------------------------------------------
-(https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/26582f7f-8baf-408a-8b42-d4f9d76b2f25)
-)
-Diagram(https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/8987d5cb-bec3-4d57-91dd-0a5e2edc75ca)
+
+[Architecture](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/593411ba-a39f-4c1e-a1a2-f29747baf59d)
 
 
 Resource group: 
 Resources group is a collection or group in azure cloud,it making easier to manage , monitor or organize them
-
 
 
 Traffic Manager: 
