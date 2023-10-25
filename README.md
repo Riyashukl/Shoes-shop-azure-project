@@ -46,18 +46,26 @@ Create Virtual machine:
 1.Create Machine 1 in subnet1
 
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/62167709-878d-44d6-8ed1-ea63ed9c7adf)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/c86a9953-cee9-446d-bd3d-42627f6d0dd5)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/afc0ec9e-73b8-4ca6-b1d3-c808695daaa8)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/fa2b8edb-6054-4d85-8582-b8bfa9d24bf4)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/f1be0b8c-3ad6-4bf7-bdb2-fafcdc8c1ef5)
 
 
 Create virtual machine for database in subnet2:
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/d0aded5d-628f-460b-a89c-64a2f7d2c5c7)
 
 Create Azure MySqL database:
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/3efcd0ab-0a8c-4755-9e24-3a922a47f982)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/69cffae6-e85c-4aec-b663-b10a951696a4)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/d90f7326-74ea-4d91-ac85-145a0aeae934)
 
 Install Mysql database in Machine3(Database Server Machine):
@@ -65,24 +73,35 @@ Install Mysql database in Machine3(Database Server Machine):
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/7ce146b1-1bd4-40e0-94ff-3eb23c9494f6)
 
 Create Azure CDN:
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/c225deed-141c-40ba-b30c-885f527ddf4d)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/27399591-1f2d-4a5e-a925-ff7c63c3b300)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/c24a4202-4d9a-4315-8faf-cdafdcbd8c66)
 
 Deploy code on virtual machine using Github:
+
 Deploy same code on machine1 and Machine2
 
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/28339b30-f19f-485e-8388-3477e6600e0a)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/5b030123-00ff-4679-8a20-a6e329e69b32)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/9c005b6c-aa28-4334-9f68-20fb8f1a46d7)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/aa18cf7a-acfc-4048-8fe9-a590064acc89)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/46532c24-57c8-4461-be2f-056b3c03e900)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/2cf3093b-1414-40ac-bf17-2c63515de6c7)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/5f1f2e08-41e2-4fd7-9df2-5e302a4212dc)
 
 Commands:
 
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/f41a5a7c-ca6b-4190-bf54-45b440b856bb)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/9db4e71c-e3cc-4109-859a-fc4a6aa16c48)
 
 
@@ -95,6 +114,7 @@ Step 4:Place your order confirm
 Step 5:Domain Registration
 
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/3a2542b1-ff3e-42cf-9055-fcb5a89454ac)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/009e7350-a3ed-44b2-a4f3-6d0d5cb4f626)
 
 •Create a DNS zone to host your website domain name .This means that when someone types in your websites address in a web browser, the DNS zone directs them to the correct destination.In this setup, its linked to the traffic manager
@@ -129,6 +149,7 @@ Update Your Domain Registrar:
 •	Change the nameservers or DNS settings to point to Azure's DNS servers (you can find these DNS server details in your Azure DNS Zone settings).
 
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/46f923f2-cc69-4652-bf41-f0202e658bcc)
+
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/cd1ec117-1375-4c02-a8e7-e3153ad12eba)
 
 Azure Monitor:
