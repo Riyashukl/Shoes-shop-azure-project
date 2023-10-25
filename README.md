@@ -12,7 +12,7 @@ Shoes-shop website link:
 http://shoes.riyashukla.online/index.html
 
 ------------------------------------------------------------------------
-![Uploading image.png…]((https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/26582f7f-8baf-408a-8b42-d4f9d76b2f25)
+(https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/26582f7f-8baf-408a-8b42-d4f9d76b2f25)
 )
 
 Resource group: 
