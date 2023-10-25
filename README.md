@@ -12,7 +12,7 @@ Shoes-shop website link:
 http://shoes.riyashukla.online/index.html
 
 ------------------------------------------------------------------------
-
+-------------------------------------------------------------------------
 Resource group: Resources group is a collection or group in azure cloud,it making easier to manage , monitor or organize them
 ------------------------------------------------------------------------
 Traffic Manager: To enhance the availability and performance of our website, we implemented Azure Traffic Manager. This service efficiently distributed incoming web traffic between the two virtual machines in Subnet 1, ensuring a seamless experience for our visitors.
