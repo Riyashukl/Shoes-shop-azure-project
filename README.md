@@ -54,26 +54,97 @@ Install Mysql database in Machine3(Database Server Machine):
 Create Azure CDN:
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/c225deed-141c-40ba-b30c-885f527ddf4d)
 ![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/27399591-1f2d-4a5e-a925-ff7c63c3b300)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/c24a4202-4d9a-4315-8faf-cdafdcbd8c66)
+
+Deploy code on virtual machine using Github:
+Deploy same code on machine1 and Machine2
+
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/28339b30-f19f-485e-8388-3477e6600e0a)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/5b030123-00ff-4679-8a20-a6e329e69b32)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/9c005b6c-aa28-4334-9f68-20fb8f1a46d7)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/aa18cf7a-acfc-4048-8fe9-a590064acc89)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/46532c24-57c8-4461-be2f-056b3c03e900)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/2cf3093b-1414-40ac-bf17-2c63515de6c7)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/5f1f2e08-41e2-4fd7-9df2-5e302a4212dc)
+
+Commands:
+
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/f41a5a7c-ca6b-4190-bf54-45b440b856bb)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/9db4e71c-e3cc-4109-859a-fc4a6aa16c48)
+
+
+Create DNS Zone for hosting:
+
+Step 1:Visit Hostinger’s website
+Step 2:Search for Your Domain(riyashukla.online)
+Step 3:Review your cart, sign in or Create an account
+Step 4:Place your order confirm
+Step 5:Domain Registration
+
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/3a2542b1-ff3e-42cf-9055-fcb5a89454ac)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/009e7350-a3ed-44b2-a4f3-6d0d5cb4f626)
+
+•Create a DNS zone to host your website domain name .This means that when someone types in your websites address in a web browser, the DNS zone directs them to the correct destination.In this setup, its linked to the traffic manager
+
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/d35c7e29-9998-40e3-935f-461003560345)
+
+Create traffic manager  (Priority based):
+
+Traffic Manager to distribute incoming requests between the two VMs in subnet1.It improves the availability and Performance of your website by load balancing.  
+
+•	Now we need to create Traffic Manager it distrubuting the Users request to the apporopriate Virtual Machine within your subnet 1.This ensures that your website loads efficiently and reliably for your visitors.
+•	Create a Traffic Manager Profile:
+
+•	In the Azure Portal, search for and select "Traffic Manager profiles."
+•	Click the "+ Add" button to create a new Traffic Manager profile.
+•	Follow the prompts to configure the profile with your desired settings, including routing method (e.g., Priority, Weighted, Geographic), and add the endpoints (the VMs in your Subnet 1).
+•	We select routing method (Priority)
+
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/ac22a69c-dac3-4f1e-bb4a-9432be385351)
+
+Link Traffic Manager to the DNS zone :
+
+•	In the DNS Zone settings, under "Records," you should create a CNAME (Alias) record that points to your Traffic Manager profile. This is where you connect the DNS Zone to the Traffic Manager.
+•	Add a CNAME record with a name like "www" or "@", and set its value to the fully qualified domain name (FQDN) of your Traffic Manager profile.
+
+
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/986241d4-0621-45cb-aeac-5429a57f8d1b)
+
+Update Your Domain Registrar:
+
+•	If your domain is registered with a domain registrar (Hostingr), you need to update the DNS settings there. Log in to your domain registrar's website.
+•	Change the nameservers or DNS settings to point to Azure's DNS servers (you can find these DNS server details in your Azure DNS Zone settings).
+
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/46f923f2-cc69-4652-bf41-f0202e658bcc)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/cd1ec117-1375-4c02-a8e7-e3153ad12eba)
+
+Azure Monitor:
+
+Monitoring in Azure is a crucial aspect of managing and maintaining the health, performance, and security of your cloud resources. Azure provides a comprehensive set of monitoring and management tools. Here's an overview of how monitoring works in Azure:
+
+
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/ed2caf0e-d52e-4702-b9b2-8aa0204a742e)
+
+
+Azure Alerts: You can configure alerts to notify you when specific conditions are met. For example, you can set up alerts for high CPU usage, low memory, or any other metrics. These alerts can be sent to various notification channels, including email, SMS, or even third-party services like Slack.
+Azure Monitor for VMs: If you're running virtual machines (VMs) in Azure, you can use this service to collect performance and health data for those VMs.
+Metrics: Metrics are numerical data collected from your resources. Azure Monitor collects, stores, and analyse metrics to help you understand how your resources are performing. You can set up alerts based on these metrics to be notified of any issues.
+Azure Application Insights: This service is part of Azure Monitor and is focused on application performance monitoring. It helps you track the performance and usage of your web applications and other services.
 
 
 
+Azure Alerts:
 
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/13443264-1fe9-43c7-9330-7095307eb715)
 
+Metrics:
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/e68db4dd-c1d3-48bd-89ac-69c1b5cdb8a3)
 
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/3e4b78a3-f755-40f3-bec2-19534878e1e1)
 
+Network:
 
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/23dfc53b-75b9-4856-8537-643dfc7300cf)
 
 
 Resource group: 
@@ -101,6 +172,11 @@ Azure CDN:
 To further enhance the website's performance, we integrated Azure Content Delivery Network (CDN). This technology cached and delivered website content from locations closer to the end-users, resulting in faster load times and a smoother browsing experience.
 
 Conclusion:
+In summary, our project successfully leveraged Azure's cloud computing capabilities to create and deploy a shoe shop website with a strong focus on availability, performance, and user experience. The use of Virtual Networks and Subnets ensured a secure and organized infrastructure. Traffic Manager efficiently managed incoming traffic, while DNS Zone facilitated seamless domain name resolution.
+
+Our commitment to monitoring and alerts helped us stay proactive in maintaining the website's reliability. Lastly, the Azure CDN optimized content delivery, making our site faster and more responsive to our customers.
+
 In conclusion, by harnessing Azure's cloud services and following best practices, we've not only created a functional online presence but also ensured that it's accessible, reliable, and responsive, providing an excellent shopping experience for our customers. This project demonstrates the power of cloud computing in enabling e-commerce businesses to thrive in the digital age.
-Youtube video link
+
+
 
