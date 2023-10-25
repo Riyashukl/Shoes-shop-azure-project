@@ -29,6 +29,47 @@ Create Virtual Network:
 ![step3](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/6fb4838d-ce46-4d47-9dc1-906a05c536ef)
 
 
+Create Virtual machine:
+1.Create Machine 1 in subnet1
+
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/62167709-878d-44d6-8ed1-ea63ed9c7adf)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/c86a9953-cee9-446d-bd3d-42627f6d0dd5)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/afc0ec9e-73b8-4ca6-b1d3-c808695daaa8)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/fa2b8edb-6054-4d85-8582-b8bfa9d24bf4)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/f1be0b8c-3ad6-4bf7-bdb2-fafcdc8c1ef5)
+
+
+Create virtual machine for database in subnet2:
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/d0aded5d-628f-460b-a89c-64a2f7d2c5c7)
+
+Create Azure MySqL database:
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/3efcd0ab-0a8c-4755-9e24-3a922a47f982)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/69cffae6-e85c-4aec-b663-b10a951696a4)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/d90f7326-74ea-4d91-ac85-145a0aeae934)
+
+Install Mysql database in Machine3(Database Server Machine):
+
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/7ce146b1-1bd4-40e0-94ff-3eb23c9494f6)
+
+Create Azure CDN:
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/c225deed-141c-40ba-b30c-885f527ddf4d)
+![image](https://github.com/Riyashukl/Shoes-shop-azure-project/assets/103056264/27399591-1f2d-4a5e-a925-ff7c63c3b300)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
