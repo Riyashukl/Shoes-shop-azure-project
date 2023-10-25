@@ -13,6 +13,10 @@ http://shoes.riyashukla.online/index.html
 
 ------------------------------------------------------------------------
 -------------------------------------------------------------------------
+BACKGROUND
+
+ In the early 2000s, the e-commerce landscape witnessed the emergence of online shoe shops, marking a significant shift in the way people shopped for footwear. These websites aimed to provide customers with a convenient and extensive platform for browsing, selecting, and purchasing shoes from the comfort of their homes. The background of these e-commerce shoe shops is rooted in the digital revolution and the growing consumer preference for online shopping. With the advent of secure online payment methods and advancements in web technology, it became feasible to create user-friendly, visually appealing platforms for showcasing a wide range of shoe brands and styles. These websites offered various advantages, such as a vast product catalog, detailed product descriptions, high-quality images, and customer reviews, empowering shoppers to make informed choices. Additionally, e-commerce platforms streamlined the purchasing process, offering features like wish lists, cart management, and easy returns. These websites offered various advantages, such as a vast product catalog, detailed product descriptions, high-quality images, and customer reviews, empowering shoppers to make informed choices. Additionally, e-commerce platforms streamlined the purchasing process, offering features like wish lists, cart management, and easy returns.
+
 Resource group: Resources group is a collection or group in azure cloud,it making easier to manage , monitor or organize them
 ------------------------------------------------------------------------
 Traffic Manager: To enhance the availability and performance of our website, we implemented Azure Traffic Manager. This service efficiently distributed incoming web traffic between the two virtual machines in Subnet 1, ensuring a seamless experience for our visitors.
